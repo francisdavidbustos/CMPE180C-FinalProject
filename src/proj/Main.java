@@ -56,7 +56,7 @@ public class Main {
 			return;
 		}
 		ParallelInsertion x = new ParallelInsertion(arr);
-		ParallelQuick i = new ParallelQuick(arr2);
+		ParallelQuick i = new ParallelQuick(arr2, 0, arr2.length-1);
 		Insertion y = new Insertion();
 		//System.out.println("Before: " + Arrays.toString(arr3));
 		int b = (int) new Date().getTime();

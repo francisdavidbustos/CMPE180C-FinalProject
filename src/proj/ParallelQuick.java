@@ -11,15 +11,6 @@ public class ParallelQuick extends RecursiveAction {
 	/*
 	 * Constructor
 	 */
-	public ParallelQuick(int[] arr) {
-		this.arr = arr;
-		a = 0;
-		b = arr.length - 1;
-	}
-	
-	/*
-	 * Constructor
-	 */
 	public ParallelQuick(int[] arr, int a, int b) {
 		this.arr = arr;
 		this.a = a;
