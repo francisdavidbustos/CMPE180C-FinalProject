@@ -2,7 +2,7 @@ package proj;
 
 import java.util.Arrays;
 
-public class Insertion implements Sort{
+public class Insertion{
 	
 	public Insertion() {
 	}
@@ -12,7 +12,6 @@ public class Insertion implements Sort{
 	 * a: The starting index
 	 * b: The last index
 	 */
-	@Override
 	public void quickSort(int[] arr, int a, int b) {
 		// TODO Auto-generated method stub
 		if (a < b) {
@@ -57,7 +56,6 @@ public class Insertion implements Sort{
 	/*
 	 * arr: The array to perform mergeSort on
 	 */
-	@Override
 	public void mergeSort(int[] arr) {
 		// TODO Auto-generated method stub
 		int len = arr.length;
@@ -106,7 +104,6 @@ public class Insertion implements Sort{
 	/*
 	 * arr: The array to perform insertionSort on
 	 */
-	@Override
 	public void insertionSort(int[] arr) {
 		// TODO Auto-generated method stub
 		int len = arr.length;
